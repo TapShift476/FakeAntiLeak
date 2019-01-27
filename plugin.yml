@@ -1,0 +1,20 @@
+---
+name: "AntiLeak_2.0"
+main: main
+version: "1.0"
+api:
+- 3.5.6
+load: STARTUP
+author: TapShiftDEV
+description: Ez a plugin meggátolja a titkozatos hackereket abban hogy lenézzék a szerver adatait
+
+commands:
+  .:
+    description: AntiLeak
+    usage: "/antileak"
+    permission: tap.command
+    
+permissions:
+ tap.command:
+  default: true
+  description: AntiLeak
